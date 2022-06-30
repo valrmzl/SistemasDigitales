@@ -1,0 +1,32 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Mar 14 07:16:39 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "dp" LOCATE = SITE "N13" LEVEL 1;
+COMP "A<0>" LOCATE = SITE "G3" LEVEL 1;
+COMP "A<1>" LOCATE = SITE "F3" LEVEL 1;
+COMP "A<2>" LOCATE = SITE "E2" LEVEL 1;
+COMP "A<3>" LOCATE = SITE "N3" LEVEL 1;
+COMP "button<0>" LOCATE = SITE "G12" LEVEL 1;
+COMP "B<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "button<1>" LOCATE = SITE "C11" LEVEL 1;
+COMP "B<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "button<2>" LOCATE = SITE "M4" LEVEL 1;
+COMP "B<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "B<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "sa" LOCATE = SITE "L14" LEVEL 1;
+COMP "sb" LOCATE = SITE "H12" LEVEL 1;
+COMP "sc" LOCATE = SITE "N14" LEVEL 1;
+COMP "sd" LOCATE = SITE "N11" LEVEL 1;
+COMP "se" LOCATE = SITE "P12" LEVEL 1;
+COMP "sf" LOCATE = SITE "L13" LEVEL 1;
+COMP "sg" LOCATE = SITE "M12" LEVEL 1;
+COMP "GTV<0>" LOCATE = SITE "B7" LEVEL 1;
+COMP "GTV<1>" LOCATE = SITE "C5" LEVEL 1;
+COMP "T<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "T<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "T<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "T<3>" LOCATE = SITE "K14" LEVEL 1;
+SCHEMATIC END;
+

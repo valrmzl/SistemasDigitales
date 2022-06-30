@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Feb 14 11:31:53 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "e" LOCATE = SITE "P12" LEVEL 1;
+COMP "f" LOCATE = SITE "L13" LEVEL 1;
+COMP "g" LOCATE = SITE "M12" LEVEL 1;
+COMP "sw0" LOCATE = SITE "P11" LEVEL 1;
+COMP "sw1" LOCATE = SITE "L3" LEVEL 1;
+COMP "sw2" LOCATE = SITE "K3" LEVEL 1;
+COMP "sw3" LOCATE = SITE "B4" LEVEL 1;
+COMP "sw4" LOCATE = SITE "G3" LEVEL 1;
+COMP "sw5" LOCATE = SITE "F3" LEVEL 1;
+COMP "sw6" LOCATE = SITE "E2" LEVEL 1;
+COMP "a" LOCATE = SITE "L14" LEVEL 1;
+COMP "b" LOCATE = SITE "H12" LEVEL 1;
+COMP "c" LOCATE = SITE "N14" LEVEL 1;
+COMP "d" LOCATE = SITE "N11" LEVEL 1;
+SCHEMATIC END;
+

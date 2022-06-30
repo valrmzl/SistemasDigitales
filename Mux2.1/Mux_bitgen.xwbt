@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Sistemas digitales\Mux2.1\Mux.ncd
+OUTFILE=D:\Sistemas digitales\Mux2.1\Mux.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=D:\Sistemas digitales\Mux2.1
+LICENSE=WebPack
+USER_INFO=210784570_0_0_239

@@ -1,0 +1,31 @@
+
+NET "B[0]" LOC ="P11";	# sw0, el de la derecha
+NET "B[1]" LOC ="L3";	# sw1
+NET "B[2]" LOC ="K3";	# sw2
+NET "B[3]" LOC ="B4";	# sw3
+NET "A[0]" LOC ="G3";	# sw4
+NET "A[1]" LOC ="F3";	# sw5
+NET "A[2]" LOC ="E2";	# sw6
+NET "A[3]" LOC ="N3";	# sw7, el de la izquierda
+
+NET "button[0]" LOC = "G12";	#bt0, el de la derecha
+NET "button[1]" LOC = "C11";	#bt1
+NET "button[2]" LOC = "M4";	#bt2
+
+
+NET "sa" LOC = "L14";	# segmento a
+NET "sb" LOC = "H12";	# segmento b
+NET "sc" LOC = "N14";	# segmento c
+NET "sd" LOC = "N11";	# segmento d
+NET "se" LOC = "P12";	# segmento e
+NET "sf" LOC = "L13";	# segmento f
+NET "sg" LOC = "M12";	# segmento g
+NET "dp" LOC = "N13";   # punto decimal "dp"
+
+NET "GTV[1]" LOC = "C5" | PULLUP ;  # JB  3
+NET "GTV[0]" LOC = "B7" | PULLUP ;  # JB  4,
+
+NET "T[0]" LOC = "F12"; 	# Transistor 0, el de la derecha
+NET "T[1]" LOC = "J12"; 	# Transistor 1
+NET "T[2]" LOC = "M13"; 	# Transistor 2
+NET "T[3]" LOC = "K14"; 	# Transistor 3, el de la izquierda

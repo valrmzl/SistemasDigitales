@@ -1,0 +1,45 @@
+xst -intstyle ise -ifn "D:/Sistemas digitales/displayVal/displayVal.xst" -ofn "D:/Sistemas digitales/displayVal/displayVal.syr" 
+xst -intstyle ise -ifn "D:/Sistemas digitales/displayVal/displayVal.xst" -ofn "D:/Sistemas digitales/displayVal/displayVal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc displayVal.ucf -p xc3s100e-cp132-5 "displayVal.ngc" displayVal.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o displayVal_map.ncd displayVal.ngd displayVal.pcf 
+par -w -intstyle ise -ol high -t 1 displayVal_map.ncd displayVal.ncd displayVal.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml displayVal.twx displayVal.ncd -o displayVal.twr displayVal.pcf -ucf displayVal.ucf 
+bitgen -intstyle ise -f displayVal.ut displayVal.ncd 
+vhdtdtfi -lang verilog -prj displayVal -o "D:/Sistemas digitales/displayVal/displayVal.tfi" -lib work "D:/Sistemas digitales/displayVal//displayVal.v" -module displayVal -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "D:/Sistemas digitales/displayVal/displayVal.xst" -ofn "D:/Sistemas digitales/displayVal/displayVal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc displayVal.ucf -p xc3s100e-cp132-5 "displayVal.ngc" displayVal.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o displayVal_map.ncd displayVal.ngd displayVal.pcf 
+par -w -intstyle ise -ol high -t 1 displayVal_map.ncd displayVal.ncd displayVal.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml displayVal.twx displayVal.ncd -o displayVal.twr displayVal.pcf -ucf displayVal.ucf 
+bitgen -intstyle ise -f displayVal.ut displayVal.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/displayVal/displayVal.xst" -ofn "D:/Sistemas digitales/displayVal/displayVal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc displayVal.ucf -p xc3s100e-cp132-5 "displayVal.ngc" displayVal.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o displayVal_map.ncd displayVal.ngd displayVal.pcf 
+par -w -intstyle ise -ol high -t 1 displayVal_map.ncd displayVal.ncd displayVal.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml displayVal.twx displayVal.ncd -o displayVal.twr displayVal.pcf -ucf displayVal.ucf 
+bitgen -intstyle ise -f displayVal.ut displayVal.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/displayVal/displayVal.xst" -ofn "D:/Sistemas digitales/displayVal/displayVal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc displayVal.ucf -p xc3s100e-cp132-5 "displayVal.ngc" displayVal.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o displayVal_map.ncd displayVal.ngd displayVal.pcf 
+par -w -intstyle ise -ol high -t 1 displayVal_map.ncd displayVal.ncd displayVal.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml displayVal.twx displayVal.ncd -o displayVal.twr displayVal.pcf -ucf displayVal.ucf 
+bitgen -intstyle ise -f displayVal.ut displayVal.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/displayVal/displayVal.xst" -ofn "D:/Sistemas digitales/displayVal/displayVal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc displayVal.ucf -p xc3s100e-cp132-5 "displayVal.ngc" displayVal.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o displayVal_map.ncd displayVal.ngd displayVal.pcf 
+par -w -intstyle ise -ol high -t 1 displayVal_map.ncd displayVal.ncd displayVal.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml displayVal.twx displayVal.ncd -o displayVal.twr displayVal.pcf -ucf displayVal.ucf 
+bitgen -intstyle ise -f displayVal.ut displayVal.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/displayVal/displayVal.xst" -ofn "D:/Sistemas digitales/displayVal/displayVal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc displayVal.ucf -p xc3s100e-cp132-5 "displayVal.ngc" displayVal.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o displayVal_map.ncd displayVal.ngd displayVal.pcf 
+par -w -intstyle ise -ol high -t 1 displayVal_map.ncd displayVal.ncd displayVal.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml displayVal.twx displayVal.ncd -o displayVal.twr displayVal.pcf -ucf displayVal.ucf 
+bitgen -intstyle ise -f displayVal.ut displayVal.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/displayVal/displayVal.xst" -ofn "D:/Sistemas digitales/displayVal/displayVal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc displayVal.ucf -p xc3s100e-cp132-5 "displayVal.ngc" displayVal.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o displayVal_map.ncd displayVal.ngd displayVal.pcf 
+par -w -intstyle ise -ol high -t 1 displayVal_map.ncd displayVal.ncd displayVal.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml displayVal.twx displayVal.ncd -o displayVal.twr displayVal.pcf -ucf displayVal.ucf 
+bitgen -intstyle ise -f displayVal.ut displayVal.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/displayVal/displayVal.xst" -ofn "D:/Sistemas digitales/displayVal/displayVal.syr" 

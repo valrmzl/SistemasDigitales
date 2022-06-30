@@ -1,0 +1,152 @@
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+vhdtdtfi -lang verilog -prj binarioHexadecimalVGRL -o "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.tfi" -lib work "D:/Sistemas digitales/binarioHexadecimalVGRL//binarioHexadecimalVGRL.v" -module binarioHexadecimalVGRL -template D:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+xst -intstyle ise -ifn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.xst" -ofn "D:/Sistemas digitales/binarioHexadecimalVGRL/binarioHexadecimalVGRL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim binarioHexadecimalVGRL.ngc binarioHexadecimalVGRL_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc binarioHexadecimalVGRL.ucf -p xc3s100e-cp132-5 "binarioHexadecimalVGRL.ngc" binarioHexadecimalVGRL.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ngd binarioHexadecimalVGRL.pcf 
+par -w -intstyle ise -ol high -t 1 binarioHexadecimalVGRL_map.ncd binarioHexadecimalVGRL.ncd binarioHexadecimalVGRL.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml binarioHexadecimalVGRL.twx binarioHexadecimalVGRL.ncd -o binarioHexadecimalVGRL.twr binarioHexadecimalVGRL.pcf -ucf binarioHexadecimalVGRL.ucf 
+bitgen -intstyle ise -f binarioHexadecimalVGRL.ut binarioHexadecimalVGRL.ncd 

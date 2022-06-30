@@ -1,0 +1,4 @@
+verilog work "FlipFlop.v"
+verilog work "combinacional.v"
+verilog work "binarioHexadecimalVGRL.v"
+verilog work "top.v"

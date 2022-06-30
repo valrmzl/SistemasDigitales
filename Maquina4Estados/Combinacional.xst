@@ -1,0 +1,5 @@
+set -tmpdir "D:/Sistemas digitales/Maquina4Estados/xst/projnav.tmp"
+set -xsthdpdir "D:/Sistemas digitales/Maquina4Estados/xst"
+elaborate
+-ifn Combinacional.prj
+-ifmt mixed

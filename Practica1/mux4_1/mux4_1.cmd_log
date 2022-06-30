@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/Sistemas digitales/Practica1/mux4_1/mux4_1.xst" -ofn "D:/Sistemas digitales/Practica1/mux4_1/mux4_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "mux4_1.ngc" mux4_1.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o mux4_1_map.ncd mux4_1.ngd mux4_1.pcf 
+par -w -intstyle ise -ol high -t 1 mux4_1_map.ncd mux4_1.ncd mux4_1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux4_1.twx mux4_1.ncd -o mux4_1.twr mux4_1.pcf 
+bitgen -intstyle ise -f mux4_1.ut mux4_1.ncd 

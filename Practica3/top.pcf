@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Mar 27 20:13:57 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "dp" LOCATE = SITE "N13" LEVEL 1;
+COMP "sa" LOCATE = SITE "L14" LEVEL 1;
+COMP "sb" LOCATE = SITE "H12" LEVEL 1;
+COMP "sc" LOCATE = SITE "N14" LEVEL 1;
+COMP "sd" LOCATE = SITE "N11" LEVEL 1;
+COMP "se" LOCATE = SITE "P12" LEVEL 1;
+COMP "sf" LOCATE = SITE "L13" LEVEL 1;
+COMP "sg" LOCATE = SITE "M12" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "reset" LOCATE = SITE "A7" LEVEL 1;
+COMP "enable" LOCATE = SITE "G12" LEVEL 1;
+COMP "Transistor<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "Transistor<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "Transistor<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "Transistor<3>" LOCATE = SITE "K14" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

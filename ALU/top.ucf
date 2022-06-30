@@ -1,0 +1,13 @@
+NET "B[3]" LOC ="P11";	# sw0, el de la derecha
+NET "B[2]" LOC ="L3";	# sw1
+NET "B[1]" LOC ="K3";	# sw2
+NET "B[0]" LOC ="B4";	# sw3
+NET "A[3]" LOC ="G3";	# sw4
+NET "A[2]" LOC ="F3";	# sw5
+NET "A[1]" LOC ="E2";	# sw6
+NET "A[0]" LOC ="N3";	# sw7, el de la izquierda
+
+
+NET "b2" LOC = "C11";	#bt1
+NET "b1" LOC = "M4";	#bt2
+NET "b0" LOC = "A7";	#bt3, el de la izquierda

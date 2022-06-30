@@ -1,0 +1,37 @@
+
+
+//Asgnación de las entradas a los switches
+NET "z" LOC ="G3";	# sw4
+NET "y" LOC ="F3";	# sw5
+NET "x" LOC ="E2";	# sw6
+NET "w" LOC ="N3";	# sw7, el de la izquierda
+
+//Asignación de segmentos
+NET "a" LOC = "L14";	# segmento a
+NET "b" LOC = "H12";	# segmento b
+NET "c" LOC = "N14";	# segmento c
+NET "d" LOC = "N11";	# segmento d
+NET "e" LOC = "P12";	# segmento e
+NET "f" LOC = "L13";	# segmento f
+NET "g" LOC = "M12";	# segmento g
+
+
+NET "GTV[1]" LOC = "C5" | PULLUP ;  # JB  3
+NET "GTV[0]" LOC = "B7" | PULLUP ;  # JB  4, está junto a la terminal JB-5, la de tierra#
+
+NET "transistor[0]" LOC = "F12"; 	# Transistor 0, el de la derecha
+NET "transistor[1]" LOC = "J12"; 	# Transistor 1
+NET "transistor[2]" LOC = "M13"; 	# Transistor 2
+NET "transistor[3]" LOC = "K14"; 	# Transistor 3, el de la izquierda
+
+
+
+
+
+
+# Pin assignment for Transistors. Para encenderlo con un 0
+//NET "T[0]" LOC = "F12"; 	# Transistor 0, el de la derecha
+//NET "T[1]" LOC = "J12"; 	# Transistor 1
+//NET "T[2]" LOC = "M13"; 	# Transistor 2
+//NET "T[3]" LOC = "K14"; 	# Transistor 3, el de la izquierda
+#Nota, el transistor de la derecha está en F12, no en k14

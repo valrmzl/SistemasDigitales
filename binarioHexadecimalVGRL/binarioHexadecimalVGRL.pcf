@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Feb 28 12:24:11 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "e" LOCATE = SITE "P12" LEVEL 1;
+COMP "f" LOCATE = SITE "L13" LEVEL 1;
+COMP "g" LOCATE = SITE "M12" LEVEL 1;
+COMP "w" LOCATE = SITE "N3" LEVEL 1;
+COMP "x" LOCATE = SITE "E2" LEVEL 1;
+COMP "y" LOCATE = SITE "F3" LEVEL 1;
+COMP "z" LOCATE = SITE "G3" LEVEL 1;
+COMP "GTV<0>" LOCATE = SITE "B7" LEVEL 1;
+COMP "GTV<1>" LOCATE = SITE "C5" LEVEL 1;
+COMP "transistor<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "transistor<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "transistor<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "transistor<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "a" LOCATE = SITE "L14" LEVEL 1;
+COMP "b" LOCATE = SITE "H12" LEVEL 1;
+COMP "c" LOCATE = SITE "N14" LEVEL 1;
+COMP "d" LOCATE = SITE "N11" LEVEL 1;
+SCHEMATIC END;
+

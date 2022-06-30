@@ -1,0 +1,15 @@
+NET "sw[0]" LOC ="P11";	# sw0, el de la derecha
+NET "sw[1]" LOC ="L3";	# sw1
+NET "sw[2]" LOC ="K3";	# sw2
+NET "sw[3]" LOC ="B4";	# sw3
+NET "sw[4]" LOC ="G3";	# sw4
+NET "sw[5]" LOC ="F3";	# sw5
+NET "sw[6]" LOC ="E2";	# sw6
+NET "sw[7]" LOC ="N3";	# sw7, el de la izquierda
+
+
+NET "reset" LOC = "G12";	#bt0, el de la derecha
+NET "IniciaTx" LOC = "C11";	#bt1
+
+
+NET "Tx" LOC ="M5"; 	 

@@ -1,0 +1,8 @@
+NET "clk" LOC = "G12";	#bt0, el de la derecha
+NET "reset" LOC = "A7";	#bt3, el de la izquierda
+
+NET "D" LOC ="P11";	# sw0, el de la derecha
+
+NET "Q" LOC ="M5";	 # L0, el de la derecha
+
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;

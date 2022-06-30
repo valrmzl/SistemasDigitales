@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/Sistemas digitales/Maquina4Estados2SW/FlipFlop.xst" -ofn "D:/Sistemas digitales/Maquina4Estados2SW/FlipFlop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "FlipFlop.ngc" FlipFlop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o FlipFlop_map.ncd FlipFlop.ngd FlipFlop.pcf 
+par -w -intstyle ise -ol high -t 1 FlipFlop_map.ncd FlipFlop.ncd FlipFlop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml FlipFlop.twx FlipFlop.ncd -o FlipFlop.twr FlipFlop.pcf 

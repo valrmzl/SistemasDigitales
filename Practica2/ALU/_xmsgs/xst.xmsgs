@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;top.v&quot; line 48 </arg>Connection to output port &apos;<arg fmt="%s" index="2">RESULT</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;top.v&quot; line 50 </arg>Connection to output port &apos;<arg fmt="%s" index="2">muxResult</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;top.v&quot; line 52 </arg>Connection to input port &apos;<arg fmt="%s" index="2">D0dp</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;top.v&quot; line 52 </arg>Connection to input port &apos;<arg fmt="%s" index="2">D1dp</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;top.v&quot; line 52 </arg>Connection to input port &apos;<arg fmt="%s" index="2">D2dp</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;top.v&quot; line 52 </arg>Connection to input port &apos;<arg fmt="%s" index="2">D3dp</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;top.v&quot; line 52 </arg>Connection to output port &apos;<arg fmt="%s" index="2">dpMuxResult</arg>&apos; does not match port size
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+</messages>
+

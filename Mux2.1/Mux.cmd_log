@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/Sistemas digitales/Mux2.1/Mux.xst" -ofn "D:/Sistemas digitales/Mux2.1/Mux.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Mux.ucf -p xc3s100e-cp132-5 "Mux.ngc" Mux.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Mux_map.ncd Mux.ngd Mux.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Mux.ucf -p xc3s100e-cp132-5 "Mux.ngc" Mux.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Mux_map.ncd Mux.ngd Mux.pcf 
+par -w -intstyle ise -ol high -t 1 Mux_map.ncd Mux.ncd Mux.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Mux.twx Mux.ncd -o Mux.twr Mux.pcf -ucf Mux.ucf 
+bitgen -intstyle ise -f Mux.ut Mux.ncd 

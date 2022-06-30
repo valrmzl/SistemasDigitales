@@ -1,0 +1,25 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/Sistemas digitales/Maquina4Estados2SW/tbtop_isim_beh.exe -prj D:/Sistemas digitales/Maquina4Estados2SW/tbtop_beh.prj work.tbtop work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/Sistemas digitales/Maquina4Estados2SW/FlipFlop.v" into library work
+Analyzing Verilog file "D:/Sistemas digitales/Maquina4Estados2SW/combinacional.v" into library work
+Analyzing Verilog file "D:/Sistemas digitales/Maquina4Estados2SW/binarioHexadecimalVGRL.v" into library work
+Analyzing Verilog file "D:/Sistemas digitales/Maquina4Estados2SW/top.v" into library work
+Analyzing Verilog file "D:/Sistemas digitales/Maquina4Estados2SW/tbtop.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/Sistemas digitales/Maquina4Estados2SW/tbtop.v" Line 36: Port sa is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/Sistemas digitales/Maquina4Estados2SW/top.v" Line 41: Size mismatch in connection of port <w>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module FlipFlop
+Compiling module combinacional
+Compiling module binarioHexadecimalVGRL
+Compiling module top
+Compiling module tbtop
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+ERROR:Simulator:904 - Unable to remove previous simulation file isim/tbtop_isim_beh.exe.sim/tbtop_isim_beh.exe. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: boost::filesystem::remove: Acceso denegado: "isim\tbtop_isim_beh.exe.sim\tbtop_isim_beh.exe"
+ERROR:Simulator:861 - Failed to link the design

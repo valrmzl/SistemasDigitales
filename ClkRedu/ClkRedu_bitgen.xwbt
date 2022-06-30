@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Sistemas digitales\ClkRedu\ClkRedu.ncd
+OUTFILE=D:\Sistemas digitales\ClkRedu\ClkRedu.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=D:\Sistemas digitales\ClkRedu
+LICENSE=WebPack
+USER_INFO=210784570_0_0_239

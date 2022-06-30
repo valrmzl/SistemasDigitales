@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/Sistemas digitales/Restador4bits/Top.xst" -ofn "D:/Sistemas digitales/Restador4bits/Top.syr" 
+xst -intstyle ise -ifn "D:/Sistemas digitales/Restador4bits/Top.xst" -ofn "D:/Sistemas digitales/Restador4bits/Top.syr" 
+xst -intstyle ise -ifn "D:/Sistemas digitales/Restador4bits/Top.xst" -ofn "D:/Sistemas digitales/Restador4bits/Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top.ucf -p xc3s100e-cp132-5 "Top.ngc" Top.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Top_map.ncd Top.ngd Top.pcf 
+par -w -intstyle ise -ol high -t 1 Top_map.ncd Top.ncd Top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf top.ucf 
+bitgen -intstyle ise -f Top.ut Top.ncd 

@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/Sistemas digitales/Practica1/segmentos/segmentos.xst" -ofn "D:/Sistemas digitales/Practica1/segmentos/segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc segmentos.ucf -p xc3s100e-cp132-5 "segmentos.ngc" segmentos.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o segmentos_map.ncd segmentos.ngd segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 segmentos_map.ncd segmentos.ncd segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml segmentos.twx segmentos.ncd -o segmentos.twr segmentos.pcf -ucf segmentos.ucf 
+bitgen -intstyle ise -f segmentos.ut segmentos.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/Practica1/segmentos/segmentos.xst" -ofn "D:/Sistemas digitales/Practica1/segmentos/segmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc segmentos.ucf -p xc3s100e-cp132-5 "segmentos.ngc" segmentos.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o segmentos_map.ncd segmentos.ngd segmentos.pcf 
+par -w -intstyle ise -ol high -t 1 segmentos_map.ncd segmentos.ncd segmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml segmentos.twx segmentos.ncd -o segmentos.twr segmentos.pcf -ucf segmentos.ucf 
+bitgen -intstyle ise -f segmentos.ut segmentos.ncd 

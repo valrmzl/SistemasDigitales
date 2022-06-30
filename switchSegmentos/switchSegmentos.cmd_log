@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "D:/Sistemas digitales/switchSegmentos/switchSegmentos.xst" -ofn "D:/Sistemas digitales/switchSegmentos/switchSegmentos.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "switchSegmentos.ngc" switchSegmentos.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o switchSegmentos_map.ncd switchSegmentos.ngd switchSegmentos.pcf 
+par -w -intstyle ise -ol high -t 1 switchSegmentos_map.ncd switchSegmentos.ncd switchSegmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml switchSegmentos.twx switchSegmentos.ncd -o switchSegmentos.twr switchSegmentos.pcf 
+bitgen -intstyle ise -f switchSegmentos.ut switchSegmentos.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc switchSegmentos.ucf -p xc3s100e-cp132-5 "switchSegmentos.ngc" switchSegmentos.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o switchSegmentos_map.ncd switchSegmentos.ngd switchSegmentos.pcf 
+par -w -intstyle ise -ol high -t 1 switchSegmentos_map.ncd switchSegmentos.ncd switchSegmentos.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml switchSegmentos.twx switchSegmentos.ncd -o switchSegmentos.twr switchSegmentos.pcf -ucf switchSegmentos.ucf 
+bitgen -intstyle ise -f switchSegmentos.ut switchSegmentos.ncd 

@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "D:/Sistemas digitales/fullSubstractor/restador.xst" -ofn "D:/Sistemas digitales/fullSubstractor/restador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc restador.ucf -p xc3s100e-cp132-5 "restador.ngc" restador.ngd  
+xst -intstyle ise -ifn "D:/Sistemas digitales/fullSubstractor/restador.xst" -ofn "D:/Sistemas digitales/fullSubstractor/restador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc restador.ucf -p xc3s100e-cp132-5 "restador.ngc" restador.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc restador.ucf -p xc3s100e-cp132-5 "restador.ngc" restador.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o restador_map.ncd restador.ngd restador.pcf 
+par -w -intstyle ise -ol high -t 1 restador_map.ncd restador.ncd restador.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml restador.twx restador.ncd -o restador.twr restador.pcf -ucf restador.ucf 
+bitgen -intstyle ise -f restador.ut restador.ncd 

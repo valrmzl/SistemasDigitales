@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+displayVal instance_name (
+    .w(w), 
+    .x(x), 
+    .y(y), 
+    .z(z), 
+    .a(a), 
+    .b(b), 
+    .c(c), 
+    .d(d), 
+    .e(e), 
+    .f(f), 
+    .g(g)
+    );
+
+

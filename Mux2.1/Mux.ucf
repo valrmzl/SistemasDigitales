@@ -1,0 +1,6 @@
+NET "s" LOC ="P11";	# sw0, el de la derecha
+NET "a" LOC = "M4";	#bt2
+NET "b" LOC = "A7";	#bt3, el de la izquierda
+
+
+NET "x" LOC ="M5";	 # L0, el de la derecha

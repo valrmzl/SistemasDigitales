@@ -1,0 +1,7 @@
+NET "a" LOC ="F3";	# sw5
+NET "b" LOC ="E2";	# sw6
+NET "cin" LOC ="N3";	# sw7, el de la izquierda
+
+# Para encenderlo requiere un 1
+NET "s" LOC ="M5";	 # L0, el de la derecha
+NET "cout" LOC ="M11"; 	 # L1

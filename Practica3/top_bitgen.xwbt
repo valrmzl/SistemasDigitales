@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Sistemas digitales\Practica3\top.ncd
+OUTFILE=D:\Sistemas digitales\Practica3\top.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=D:\Sistemas digitales\Practica3
+LICENSE=WebPack
+USER_INFO=210784570_0_0_239

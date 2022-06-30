@@ -1,0 +1,236 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf top.ucf
+
+Design file:              top.ncd
+Physical constraint file: top.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |dp             |   11.691|
+A<0>           |dpMuxResult    |   10.999|
+A<0>           |muxResult<0>   |   12.928|
+A<0>           |muxResult<1>   |   12.091|
+A<0>           |muxResult<2>   |   13.512|
+A<0>           |muxResult<3>   |   12.457|
+A<0>           |sa             |   14.665|
+A<0>           |sb             |   15.369|
+A<0>           |sc             |   15.427|
+A<0>           |sd             |   14.852|
+A<0>           |se             |   15.630|
+A<0>           |sf             |   15.414|
+A<0>           |sg             |   15.384|
+A<1>           |dp             |   12.218|
+A<1>           |dpMuxResult    |   11.526|
+A<1>           |muxResult<0>   |   12.910|
+A<1>           |muxResult<1>   |   12.555|
+A<1>           |muxResult<2>   |   14.039|
+A<1>           |muxResult<3>   |   12.984|
+A<1>           |sa             |   15.192|
+A<1>           |sb             |   15.896|
+A<1>           |sc             |   15.954|
+A<1>           |sd             |   15.379|
+A<1>           |se             |   16.157|
+A<1>           |sf             |   15.941|
+A<1>           |sg             |   15.911|
+A<2>           |dp             |   11.252|
+A<2>           |dpMuxResult    |   10.560|
+A<2>           |muxResult<0>   |   12.957|
+A<2>           |muxResult<1>   |   12.100|
+A<2>           |muxResult<2>   |   13.429|
+A<2>           |muxResult<3>   |   12.586|
+A<2>           |sa             |   14.582|
+A<2>           |sb             |   15.286|
+A<2>           |sc             |   15.344|
+A<2>           |sd             |   14.769|
+A<2>           |se             |   15.547|
+A<2>           |sf             |   15.331|
+A<2>           |sg             |   15.301|
+A<3>           |dp             |    9.823|
+A<3>           |dpMuxResult    |    9.131|
+A<3>           |muxResult<0>   |   13.518|
+A<3>           |muxResult<1>   |   12.661|
+A<3>           |muxResult<2>   |   13.893|
+A<3>           |muxResult<3>   |   13.147|
+A<3>           |sa             |   15.046|
+A<3>           |sb             |   15.791|
+A<3>           |sc             |   15.808|
+A<3>           |sd             |   15.233|
+A<3>           |se             |   16.011|
+A<3>           |sf             |   15.795|
+A<3>           |sg             |   15.765|
+B<0>           |dp             |   11.936|
+B<0>           |dpMuxResult    |   11.244|
+B<0>           |muxResult<0>   |   15.101|
+B<0>           |muxResult<1>   |   14.264|
+B<0>           |muxResult<2>   |   15.101|
+B<0>           |muxResult<3>   |   14.258|
+B<0>           |sa             |   16.290|
+B<0>           |sb             |   16.958|
+B<0>           |sc             |   17.212|
+B<0>           |sd             |   16.443|
+B<0>           |se             |   17.415|
+B<0>           |sf             |   17.003|
+B<0>           |sg             |   17.163|
+B<1>           |dp             |   12.355|
+B<1>           |dpMuxResult    |   11.663|
+B<1>           |muxResult<0>   |   13.382|
+B<1>           |muxResult<1>   |   13.017|
+B<1>           |muxResult<2>   |   14.176|
+B<1>           |muxResult<3>   |   13.121|
+B<1>           |sa             |   15.329|
+B<1>           |sb             |   16.033|
+B<1>           |sc             |   16.091|
+B<1>           |sd             |   15.516|
+B<1>           |se             |   16.294|
+B<1>           |sf             |   16.078|
+B<1>           |sg             |   16.048|
+B<2>           |dp             |   10.320|
+B<2>           |dpMuxResult    |    9.628|
+B<2>           |muxResult<0>   |   13.424|
+B<2>           |muxResult<1>   |   12.567|
+B<2>           |muxResult<2>   |   13.896|
+B<2>           |muxResult<3>   |   13.053|
+B<2>           |sa             |   15.049|
+B<2>           |sb             |   15.753|
+B<2>           |sc             |   15.811|
+B<2>           |sd             |   15.236|
+B<2>           |se             |   16.014|
+B<2>           |sf             |   15.798|
+B<2>           |sg             |   15.768|
+B<3>           |dp             |    9.487|
+B<3>           |dpMuxResult    |    8.795|
+B<3>           |muxResult<0>   |   13.382|
+B<3>           |muxResult<1>   |   12.525|
+B<3>           |muxResult<2>   |   13.757|
+B<3>           |muxResult<3>   |   13.011|
+B<3>           |sa             |   14.910|
+B<3>           |sb             |   15.655|
+B<3>           |sc             |   15.672|
+B<3>           |sd             |   15.097|
+B<3>           |se             |   15.875|
+B<3>           |sf             |   15.659|
+B<3>           |sg             |   15.629|
+GTV<0>         |T<0>           |    7.207|
+GTV<0>         |T<1>           |    7.499|
+GTV<0>         |T<2>           |    8.375|
+GTV<0>         |T<3>           |    7.697|
+GTV<0>         |dp             |    8.452|
+GTV<0>         |dpMuxResult    |    7.760|
+GTV<0>         |muxResult<0>   |    7.848|
+GTV<0>         |muxResult<1>   |    7.463|
+GTV<0>         |muxResult<2>   |    8.063|
+GTV<0>         |muxResult<3>   |    8.009|
+GTV<0>         |sa             |    9.826|
+GTV<0>         |sb             |   10.653|
+GTV<0>         |sc             |   10.443|
+GTV<0>         |sd             |   10.008|
+GTV<0>         |se             |   10.646|
+GTV<0>         |sf             |   10.384|
+GTV<0>         |sg             |   10.427|
+GTV<1>         |T<0>           |    7.669|
+GTV<1>         |T<1>           |    8.017|
+GTV<1>         |T<2>           |    8.561|
+GTV<1>         |T<3>           |    7.917|
+GTV<1>         |dp             |    8.228|
+GTV<1>         |dpMuxResult    |    7.536|
+GTV<1>         |muxResult<0>   |    8.616|
+GTV<1>         |muxResult<1>   |    8.153|
+GTV<1>         |muxResult<2>   |    8.581|
+GTV<1>         |muxResult<3>   |    7.621|
+GTV<1>         |sa             |    9.879|
+GTV<1>         |sb             |   10.438|
+GTV<1>         |sc             |   10.727|
+GTV<1>         |sd             |   10.010|
+GTV<1>         |se             |   10.930|
+GTV<1>         |sf             |   10.483|
+GTV<1>         |sg             |   10.729|
+button<0>      |dp             |    9.728|
+button<0>      |dpMuxResult    |    9.036|
+button<0>      |muxResult<0>   |    9.614|
+button<0>      |muxResult<1>   |   10.371|
+button<0>      |muxResult<2>   |   11.298|
+button<0>      |muxResult<3>   |    9.913|
+button<0>      |sa             |   12.451|
+button<0>      |sb             |   13.155|
+button<0>      |sc             |   13.213|
+button<0>      |sd             |   12.638|
+button<0>      |se             |   13.416|
+button<0>      |sf             |   13.200|
+button<0>      |sg             |   13.170|
+button<1>      |dp             |    9.960|
+button<1>      |dpMuxResult    |    9.268|
+button<1>      |muxResult<0>   |    9.670|
+button<1>      |muxResult<1>   |    9.440|
+button<1>      |muxResult<2>   |   10.709|
+button<1>      |muxResult<3>   |    9.654|
+button<1>      |sa             |   11.862|
+button<1>      |sb             |   12.566|
+button<1>      |sc             |   12.624|
+button<1>      |sd             |   12.049|
+button<1>      |se             |   12.827|
+button<1>      |sf             |   12.611|
+button<1>      |sg             |   12.581|
+button<2>      |dp             |    8.851|
+button<2>      |dpMuxResult    |    8.159|
+button<2>      |muxResult<0>   |   10.654|
+button<2>      |muxResult<1>   |   10.299|
+button<2>      |muxResult<2>   |   11.783|
+button<2>      |muxResult<3>   |   10.728|
+button<2>      |sa             |   12.936|
+button<2>      |sb             |   13.640|
+button<2>      |sc             |   13.698|
+button<2>      |sd             |   13.123|
+button<2>      |se             |   13.901|
+button<2>      |sf             |   13.685|
+button<2>      |sg             |   13.655|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Mar 14 07:16:58 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4503 MB
+
+
+

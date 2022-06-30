@@ -1,0 +1,9 @@
+NET "Q[0]" LOC ="M5";	 # L0, el de la derecha  //el led 
+NET "Q[1]" LOC ="M11"; 	 # L1
+NET "sw" LOC ="P11";	# sw0, el de la derecha
+
+//clock
+
+NET "reset" LOC = "A7";	#bt3, el de la izquierda
+
+//reset

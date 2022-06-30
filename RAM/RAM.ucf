@@ -1,0 +1,27 @@
+NET "DataIn[0]" LOC ="P11";	# sw0, el de la derecha
+NET "DataIn[1]" LOC ="L3";	# sw1
+NET "DataIn[2]" LOC ="K3";	# sw2
+NET "DataIn[3]" LOC ="B4";	# sw3
+NET "DataIn[4]" LOC ="G3";	# sw4
+NET "DataIn[5]" LOC ="F3";	# sw5
+NET "DataIn[6]" LOC ="E2";	# sw6
+NET "DataIn[7]" LOC ="N3";	# sw7, el de la izquierda
+
+
+NET "Address[0]" LOC = "G12";	#bt0, el de la derecha
+NET "Address[1]" LOC = "C11";	#bt1
+
+NET "we" LOC = "A7";	#bt3, el de la izquierda
+
+
+NET "DataOut[0]" LOC ="M5";	 # L0, el de la derecha
+NET "DataOut[1]" LOC ="M11"; 	 # L1
+NET "DataOut[2]" LOC ="P7";	 # L2
+NET "DataOut[3]" LOC ="P6";	 # L3
+NET "DataOut[4]" LOC ="N5";	 # L4
+NET "DataOut[5]" LOC ="N4";	 # L5
+NET "DataOut[6]" LOC ="P4";	 # L6
+NET "DataOut[7]" LOC ="G1"; 	 # L7, el de la izquierda
+
+
+NET "clk" LOC = "B8"; # Bank = 0, Signal name = MCLK reloj interno

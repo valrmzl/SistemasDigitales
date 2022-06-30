@@ -1,0 +1,16 @@
+//switches para w x y z
+NET "z" LOC ="G3";	# sw4
+NET "y" LOC ="F3";	# sw5
+NET "x" LOC ="E2";	# sw6
+NET "w" LOC ="N3";	# sw7, el de la izquierda
+
+
+//segmentos del display
+NET "a" LOC = "L14";	# segmento a
+NET "b" LOC = "H12";	# segmento b
+NET "c" LOC = "N14";	# segmento c
+NET "d" LOC = "N11";	# segmento d
+NET "e" LOC = "P12";	# segmento e
+NET "f" LOC = "L13";	# segmento f
+NET "g" LOC = "M12";	# segmento g
+

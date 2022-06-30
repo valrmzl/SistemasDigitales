@@ -1,0 +1,5 @@
+verilog isim_temp "FlipFlop.v"
+verilog isim_temp "combinacional.v"
+verilog isim_temp "top.v"
+verilog isim_temp "tbtop.v"
+verilog isim_temp "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

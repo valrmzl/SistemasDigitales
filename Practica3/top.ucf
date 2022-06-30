@@ -1,0 +1,24 @@
+// el clk se asigna automáticamente al no tener alguno en el UCF; es de 1 segundo
+NET "reset" LOC = "A7";	#bt3, el de la izquierda
+NET "enable" LOC = "G12";	#bt0, el de la derecha
+NET "clk" LOC = "B8"; # Bank = 0, Signal name = MCLK reloj interno
+
+//NET "outcome[0]" LOC ="M5";	 # L0, el de la derecha
+//NET "outcome[1]" LOC ="M11"; 	 # L1
+//NET "outcome[2]" LOC ="P7";	 # L2
+//NET "outcome[3]" LOC ="P6";	 # L3
+
+
+NET "sa" LOC = "L14";	# segmento a
+NET "sb" LOC = "H12";	# segmento b
+NET "sc" LOC = "N14";	# segmento c
+NET "sd" LOC = "N11";	# segmento d
+NET "se" LOC = "P12";	# segmento e
+NET "sf" LOC = "L13";	# segmento f
+NET "sg" LOC = "M12";	# segmento g
+NET "dp" LOC = "N13";	# punto decimal "dp"
+
+NET "Transistor[0]" LOC = "F12"; 	# Transistor 0, el de la derecha
+NET "Transistor[1]" LOC = "J12"; 	# Transistor 1
+NET "Transistor[2]" LOC = "M13"; 	# Transistor 2
+NET "Transistor[3]" LOC = "K14"; 	# Transistor 3, el de la izquierda

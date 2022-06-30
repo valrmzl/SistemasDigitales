@@ -1,0 +1,24 @@
+# Pin assignment for SWs 
+# Abajo = 0 Arriba =1
+NET "B[0]" LOC ="P11";	# sw0, el de la derecha
+NET "B[1]" LOC ="L3";	# sw1
+NET "B[2]" LOC ="K3";	# sw2
+NET "B[3]" LOC ="B4";	# sw3
+NET "A[0]" LOC ="G3";	# sw4
+NET "A[1]" LOC ="F3";	# sw5
+NET "A[2]" LOC ="E2";	# sw6
+NET "A[3]" LOC ="N3";	# sw7, el de la izquierda
+
+
+
+
+# Pin assignment for LEDs. 
+# Para encenderlo requiere un 1
+NET "R[0]" LOC ="M5";	 # L0, el de la derecha
+NET "R[1]" LOC ="M11"; 	 # L1
+NET "R[2]" LOC ="P7";	 # L2
+NET "R[3]" LOC ="P6";	 # L3
+NET "Cout" LOC ="N5";	 # L4
+
+
+

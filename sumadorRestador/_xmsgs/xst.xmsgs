@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompilers" num="91" delta="new" ><arg fmt="%s" index="1">&quot;Top.v&quot; line 30 </arg>Module &apos;<arg fmt="%s" index="2">sumador</arg>&apos; does not have a port named &apos;<arg fmt="%s" index="3">cin</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="91" delta="new" ><arg fmt="%s" index="1">&quot;Top.v&quot; line 30 </arg>Module &apos;<arg fmt="%s" index="2">sumador</arg>&apos; does not have a port named &apos;<arg fmt="%s" index="3">s</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="91" delta="new" ><arg fmt="%s" index="1">&quot;Top.v&quot; line 30 </arg>Module &apos;<arg fmt="%s" index="2">sumador</arg>&apos; does not have a port named &apos;<arg fmt="%s" index="3">cout</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="91" delta="new" ><arg fmt="%s" index="1">&quot;Top.v&quot; line 32 </arg>Module &apos;<arg fmt="%s" index="2">sumador</arg>&apos; does not have a port named &apos;<arg fmt="%s" index="3">cin</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="91" delta="new" ><arg fmt="%s" index="1">&quot;Top.v&quot; line 32 </arg>Module &apos;<arg fmt="%s" index="2">sumador</arg>&apos; does not have a port named &apos;<arg fmt="%s" index="3">s</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="91" delta="new" ><arg fmt="%s" index="1">&quot;Top.v&quot; line 32 </arg>Module &apos;<arg fmt="%s" index="2">sumador</arg>&apos; does not have a port named &apos;<arg fmt="%s" index="3">cout</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="91" delta="new" ><arg fmt="%s" index="1">&quot;Top.v&quot; line 34 </arg>Module &apos;<arg fmt="%s" index="2">sumador</arg>&apos; does not have a port named &apos;<arg fmt="%s" index="3">cin</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="91" delta="new" ><arg fmt="%s" index="1">&quot;Top.v&quot; line 34 </arg>Module &apos;<arg fmt="%s" index="2">sumador</arg>&apos; does not have a port named &apos;<arg fmt="%s" index="3">s</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="91" delta="new" ><arg fmt="%s" index="1">&quot;Top.v&quot; line 34 </arg>Module &apos;<arg fmt="%s" index="2">sumador</arg>&apos; does not have a port named &apos;<arg fmt="%s" index="3">cout</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="91" delta="new" ><arg fmt="%s" index="1">&quot;Top.v&quot; line 36 </arg>Module &apos;<arg fmt="%s" index="2">sumador</arg>&apos; does not have a port named &apos;<arg fmt="%s" index="3">cin</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="91" delta="new" ><arg fmt="%s" index="1">&quot;Top.v&quot; line 36 </arg>Module &apos;<arg fmt="%s" index="2">sumador</arg>&apos; does not have a port named &apos;<arg fmt="%s" index="3">s</arg>&apos;
+</msg>
+
+<msg type="error" file="HDLCompilers" num="91" delta="new" ><arg fmt="%s" index="1">&quot;Top.v&quot; line 36 </arg>Module &apos;<arg fmt="%s" index="2">sumador</arg>&apos; does not have a port named &apos;<arg fmt="%s" index="3">cout</arg>&apos;
+</msg>
+
+</messages>
+

@@ -1,0 +1,6 @@
+verilog work "sumador.v"
+verilog work "segmentos.v"
+verilog work "oneCold.v"
+verilog work "mux4_1.v"
+verilog work "moduloXOR.v"
+verilog work "top.v"

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "D:/Sistemas digitales/CompuertaXOR/ModuloXOR.xst" -ofn "D:/Sistemas digitales/CompuertaXOR/ModuloXOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "ModuloXOR.ngc" ModuloXOR.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ModuloXOR_map.ncd ModuloXOR.ngd ModuloXOR.pcf 
+par -w -intstyle ise -ol high -t 1 ModuloXOR_map.ncd ModuloXOR.ncd ModuloXOR.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ModuloXOR.twx ModuloXOR.ncd -o ModuloXOR.twr ModuloXOR.pcf 
+bitgen -intstyle ise -f ModuloXOR.ut ModuloXOR.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/CompuertaXOR/ModuloXOR.xst" -ofn "D:/Sistemas digitales/CompuertaXOR/ModuloXOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ModuloXOR.ucf -p xc3s100e-cp132-5 "ModuloXOR.ngc" ModuloXOR.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ModuloXOR.ucf -p xc3s100e-cp132-5 "ModuloXOR.ngc" ModuloXOR.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ModuloXOR_map.ncd ModuloXOR.ngd ModuloXOR.pcf 
+par -w -intstyle ise -ol high -t 1 ModuloXOR_map.ncd ModuloXOR.ncd ModuloXOR.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ModuloXOR.twx ModuloXOR.ncd -o ModuloXOR.twr ModuloXOR.pcf -ucf ModuloXOR.ucf 
+bitgen -intstyle ise -f ModuloXOR.ut ModuloXOR.ncd 

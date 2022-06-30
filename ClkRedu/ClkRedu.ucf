@@ -1,0 +1,11 @@
+
+
+
+NET "clk" LOC = "B8"; # Bank = 0, Signal name = MCLK reloj interno
+NET "reset" LOC = "A7";	#bt3, el de la izquierda.
+
+
+//NET "ClkRedu" LOC ="M5";	 # L0, el de la derecha
+
+
+NET "ClkRedu" LOC = "B2" | DRIVE = 2;  # JA terminal 1, está arriba de SW7Conector JA 

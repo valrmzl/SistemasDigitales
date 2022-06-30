@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="switchSegmentos.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="switchSegmentos.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="switchSegmentos.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="switchSegmentos.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="switchSegmentos.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="switchSegmentos.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="switchSegmentos.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="switchSegmentos.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="switchSegmentos.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="switchSegmentos.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="switchSegmentos.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="switchSegmentos.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="switchSegmentos.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="switchSegmentos.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="switchSegmentos.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="switchSegmentos.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="switchSegmentos.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="switchSegmentos.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="switchSegmentos.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="switchSegmentos.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="switchSegmentos.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="switchSegmentos_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="switchSegmentos_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="switchSegmentos_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="switchSegmentos_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="switchSegmentos_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="switchSegmentos_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="switchSegmentos_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="switchSegmentos_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="switchSegmentos_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="switchSegmentos_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="switchSegmentos_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="switchSegmentos_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="switchSegmentos_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="switchSegmentos_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="switchsegmentos.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="switchsegmentos.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="switchsegmentos.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1644859297" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1644859296">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644859297" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2109340371894195872" xil_pn:start_ts="1644859297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644859297" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-4582846855603099414" xil_pn:start_ts="1644859297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644859297" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1644859297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644859297" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1724238810911014302" xil_pn:start_ts="1644859297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644859297" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1644859297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644859297" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="4641356387609523892" xil_pn:start_ts="1644859297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644859306" xil_pn:in_ck="9115297430075627051" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-5325189755702898127" xil_pn:start_ts="1644859297">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="switchSegmentos.lso"/>
+      <outfile xil_pn:name="switchSegmentos.ngc"/>
+      <outfile xil_pn:name="switchSegmentos.ngr"/>
+      <outfile xil_pn:name="switchSegmentos.prj"/>
+      <outfile xil_pn:name="switchSegmentos.stx"/>
+      <outfile xil_pn:name="switchSegmentos.syr"/>
+      <outfile xil_pn:name="switchSegmentos.xst"/>
+      <outfile xil_pn:name="switchSegmentos_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1644859907" xil_pn:in_ck="2210589696619091411" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8181604132601759049" xil_pn:start_ts="1644859907">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644859911" xil_pn:in_ck="8756170417314371904" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="2191183001437550925" xil_pn:start_ts="1644859907">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="switchSegmentos.bld"/>
+      <outfile xil_pn:name="switchSegmentos.ngd"/>
+      <outfile xil_pn:name="switchSegmentos_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1644859915" xil_pn:in_ck="3041313024313247649" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="3236488012892527759" xil_pn:start_ts="1644859911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="switchSegmentos.pcf"/>
+      <outfile xil_pn:name="switchSegmentos_map.map"/>
+      <outfile xil_pn:name="switchSegmentos_map.mrp"/>
+      <outfile xil_pn:name="switchSegmentos_map.ncd"/>
+      <outfile xil_pn:name="switchSegmentos_map.ngm"/>
+      <outfile xil_pn:name="switchSegmentos_map.xrpt"/>
+      <outfile xil_pn:name="switchSegmentos_summary.xml"/>
+      <outfile xil_pn:name="switchSegmentos_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1644859920" xil_pn:in_ck="5347144508305100570" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1644859915">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="switchSegmentos.ncd"/>
+      <outfile xil_pn:name="switchSegmentos.pad"/>
+      <outfile xil_pn:name="switchSegmentos.par"/>
+      <outfile xil_pn:name="switchSegmentos.ptwx"/>
+      <outfile xil_pn:name="switchSegmentos.unroutes"/>
+      <outfile xil_pn:name="switchSegmentos.xpi"/>
+      <outfile xil_pn:name="switchSegmentos_pad.csv"/>
+      <outfile xil_pn:name="switchSegmentos_pad.txt"/>
+      <outfile xil_pn:name="switchSegmentos_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1644859932" xil_pn:in_ck="2210589696619083786" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="287829442711806529" xil_pn:start_ts="1644859929">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="switchSegmentos.ut"/>
+      <outfile xil_pn:name="switchsegmentos.bgn"/>
+      <outfile xil_pn:name="switchsegmentos.bit"/>
+      <outfile xil_pn:name="switchsegmentos.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1644859920" xil_pn:in_ck="1085981878370033053" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1644859918">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="switchSegmentos.twr"/>
+      <outfile xil_pn:name="switchSegmentos.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

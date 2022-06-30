@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/Sistemas digitales/Practica1/ModuloXOR/moduloXOR.xst" -ofn "D:/Sistemas digitales/Practica1/ModuloXOR/moduloXOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "moduloXOR.ngc" moduloXOR.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o moduloXOR_map.ncd moduloXOR.ngd moduloXOR.pcf 
+par -w -intstyle ise -ol high -t 1 moduloXOR_map.ncd moduloXOR.ncd moduloXOR.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml moduloXOR.twx moduloXOR.ncd -o moduloXOR.twr moduloXOR.pcf 

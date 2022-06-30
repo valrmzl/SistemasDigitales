@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "D:/Sistemas digitales/Contador0a9Comportamental/Contador0a9.xst" -ofn "D:/Sistemas digitales/Contador0a9Comportamental/Contador0a9.syr" 
+xst -intstyle ise -ifn "D:/Sistemas digitales/Contador0a9Comportamental/Contador0a9.xst" -ofn "D:/Sistemas digitales/Contador0a9Comportamental/Contador0a9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "Contador0a9.ngc" Contador0a9.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Contador0a9_map.ncd Contador0a9.ngd Contador0a9.pcf 
+par -w -intstyle ise -ol high -t 1 Contador0a9_map.ncd Contador0a9.ncd Contador0a9.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador0a9.twx Contador0a9.ncd -o Contador0a9.twr Contador0a9.pcf 
+bitgen -intstyle ise -f Contador0a9.ut Contador0a9.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/Contador0a9Comportamental/Contador0a9.xst" -ofn "D:/Sistemas digitales/Contador0a9Comportamental/Contador0a9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador0a9.ucf -p xc3s100e-cp132-5 "Contador0a9.ngc" Contador0a9.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Contador0a9_map.ncd Contador0a9.ngd Contador0a9.pcf 
+par -w -intstyle ise -ol high -t 1 Contador0a9_map.ncd Contador0a9.ncd Contador0a9.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador0a9.twx Contador0a9.ncd -o Contador0a9.twr Contador0a9.pcf -ucf Contador0a9.ucf 
+bitgen -intstyle ise -f Contador0a9.ut Contador0a9.ncd 
+xst -intstyle ise -ifn "D:/Sistemas digitales/Contador0a9Comportamental/Contador0a9.xst" -ofn "D:/Sistemas digitales/Contador0a9Comportamental/Contador0a9.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador0a9.ucf -p xc3s100e-cp132-5 "Contador0a9.ngc" Contador0a9.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Contador0a9_map.ncd Contador0a9.ngd Contador0a9.pcf 
+par -w -intstyle ise -ol high -t 1 Contador0a9_map.ncd Contador0a9.ncd Contador0a9.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Contador0a9.twx Contador0a9.ncd -o Contador0a9.twr Contador0a9.pcf -ucf Contador0a9.ucf 
+bitgen -intstyle ise -f Contador0a9.ut Contador0a9.ncd 
